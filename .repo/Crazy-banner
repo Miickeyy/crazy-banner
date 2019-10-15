@@ -1,0 +1,6 @@
+# desde esta línea es la línea de encabezado de termux
+clear;
+echo "";
+cowsay -f "$TNAME")\033[0m";
+echo -e "\033[32m$(figlet -f Miickeyy.flf "$TNAME")\033[0m";
+echo "";
