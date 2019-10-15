@@ -3,8 +3,8 @@ clear;
 echo "";
 echo -e "\033[32m$(cowsay -f eyes "$TNAME")\033[0m" | lolcat;
 echo -e "\033[32m$(figlet -f Miickeyy.flf "$TNAME")\033[0m" |lolcat;
-echo "PS1='\\e[1;31m┌─[ \e[1;36m"$TNAME")\033[0m"\e[1;31m@\e[36mrootkali\e[1;31m]\e[0m-\e[1;31m[\e[36m$(date +'%d %a %b')\e[1;31m]\e[0m-\e[1;31m[\e[36m$(date +'%l:%M %p')\e[1;31m]
+PS1='\\e[1;31m┌─[ \e[1;36m"$TNAME")\033[0m"\e[1;31m@\e[36mrootkali\e[1;31m]\e[0m-\e[1;31m[\e[36m$(date +'%d %a %b')\e[1;31m]\e[0m-\e[1;31m[\e[36m$(date +'%l:%M %p')\e[1;31m]
 \e[1;31m├─[\e[1;36m \w \e[1;31m]
-└─[\e[1;36m \# \e[1;31m]\e[0m '"
+└─[\e[1;36m \# \e[1;31m]\e[0m '
 echo "";
 
