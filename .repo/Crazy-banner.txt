@@ -9,7 +9,9 @@ echo""
 echo""
 echo""
 echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
+echo""
+figlet -f Miickeyy L o a d i n g | pv -qL 350 |lolcat
+echo""
 echo""
 echo""
 echo""
@@ -23,7 +25,9 @@ echo""
 echo""
 echo""
 echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
+echo""
+figlet -f Miickeyy L o a d i n g | pv -qL 350 |lolcat
+echo""
 echo""
 echo""
 echo""
@@ -41,7 +45,9 @@ echo""
 echo""
 echo""
 echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
+echo""
+figlet -f Miickeyy L o a d i n g | pv -qL 350 |lolcat
+echo""
 echo""
 echo""
 echo""
@@ -58,7 +64,9 @@ echo""
 echo""
 echo""
 echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
+echo""
+figlet -f Miickeyy L o a d i n g | pv -qL 350 |lolcat
+echo""
 echo""
 echo""
 echo""
@@ -75,7 +83,9 @@ echo""
 echo""
 echo""
 echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
+echo""
+figlet -f Miickeyy L o a d i n g | pv -qL 350 |lolcat
+echo""
 echo""
 echo""
 echo""
@@ -93,7 +103,9 @@ echo""
 echo""
 echo""
 echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
+echo""
+figlet -f Miickeyy L o a d i n g | pv -qL 350 |lolcat
+echo""
 echo""
 echo""
 echo""
@@ -103,7 +115,9 @@ echo""
 echo""
 echo "                "/███████████████████75%......./ | pv -qL 25 |lolcat
 clear
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
+echo""
+figlet -f Miickeyy L o a d i n g | pv -qL 350 |lolcat
+echo""
 echo""
 echo""
 echo""
