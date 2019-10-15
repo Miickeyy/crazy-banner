@@ -14,28 +14,7 @@ echo""
 echo""
 echo""
 echo""
-echo "               "/█ 0%...................../ | pv -qL 25 |lolcat
-clear
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-echo "                "/█ 5%....................../ | pv -qL 25 |lolcat
-clear
-echo " "
-echo " "
-echo " "
+echo "               "/█ 0%...................../ | pv -qL 30 |lolcat
 clear
 echo""
 echo""
@@ -87,23 +66,6 @@ echo""
 echo""
 echo""
 echo""
-echo "               "/█████ 20%..................../ | pv -qL 25 |lolcat
-clear
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
 echo "               "/██████ 25%..................../ | pv -qL 25 |lolcat
 clear
 echo""
@@ -132,17 +94,7 @@ echo""
 echo""
 echo""
 echo""
-echo "                "/████████████████60%........../ | pv -qL 25 |lolcat
-clear
-figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-echo""
-echo "                "/███████████████████80%......./ | pv -qL 25 |lolcat
+echo "                "/███████████████████75%......./ | pv -qL 25 |lolcat
 clear
 figlet -f Miickeyy L o a d i n g | pv -qL 100 |lolcat
 echo""
@@ -168,6 +120,7 @@ echo""
 echo""
 echo -e "\033[32m$(cowsay -f eyes "$TNAME")\033[0m" | lolcat;
 echo -e "\033[32m$(figlet -f Miickeyy.flf "$TNAME")\033[0m" |lolcat;
+date | lolcat;
 
 echo "";
 
