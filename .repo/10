@@ -1,0 +1,257 @@
+#!/bin/bash
+rm -rf /data/data/com.termux/files/usr/etc/motd
+apt install pv -y &> /dev/null;
+spin () {
+
+local pid=$!
+local delay=0.25
+local spinner=( '█■■■■' '■█■■■' '■■█■■' '■■■█■' '■■■■█' )
+
+while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+
+for i in "${spinner[@]}"
+do
+	tput civis
+	echo -ne "\033[36m\r[*] Descargando..por favor espere.........\e[33m[\033[32m$i\033[36m]\033[0m   ";
+	sleep $delay
+	printf "\b\b\b\b\b\b\b\b";
+done
+done
+printf "   \b\b\b\b\b"
+tput cnorm
+printf "\e[1;36m [Descarga Correcta ✓✓]\e[0m";
+echo "";
+
+}
+
+
+# note this is only print 7 charecters
+echo "";
+echo -e "\e[1;36m[*] \e[36m instalando paquetes....\e[0m";
+echo "";
+apt update -y &> /dev/null;
+apt upgrade -y &> /dev/null;
+clear
+apt install git -y &> /dev/null;
+clear
+echo -e "\E[1;36m DESCARGANDO gawk  \033[0m" | pv -qL 10
+apt install gawk -y &> /dev/null;
+clear
+echo -e "\E[1;31m DESCARGANDO figlet  \033[0m" | pv -qL 10
+apt install figlet -y &> /dev/null;
+clear
+echo -e "\E[1;36m DESCARGANDO ncurses-utils  \033[0m" | pv -qL 10
+apt install ncurses-utils -y &> /dev/null;
+clear
+echo -e "\E[1;31m DESCARGANDO coreutils  \033[0m" | pv -qL 10
+apt install coreutils -y &> /dev/null;
+clear
+echo -e "\E[1;36m DESCARGANDO binutils  \033[0m" | pv -qL 10
+apt install binutils -y &> /dev/null;
+clear
+echo -e "\E[1;31m DESCARGANDO wget  \033[0m" | pv -qL 10
+apt install wget git -y &> /dev/null;
+clear
+echo -e "\E[1;36m DESCARGANDO zsh  \033[0m" | pv -qL 10
+apt install zsh -y &> /dev/null;
+clear
+echo -e "\E[1;31m DESCARGANDO termux-api  \033[0m" | pv -qL 10
+apt install termux-api -y &> /dev/null;
+clear
+echo -e "\E[1;36m DESCARGANDO procps  \033[0m" | pv -qL 10
+apt install procps -y &> /dev/null;
+clear
+termux-wake-lock;
+if [ -e $PREFIX/share/figlet/Miickeyy.flf ]; then
+	echo -e "\e[1;31m[*] \033[36m La fuente  Miickeyy.flf está presente\033[0m";
+	sleep 4
+else
+wget https://raw.githubusercontent.com/Miickeyy/crazy-banner/master/.repo/Miickeyy.flf &> /dev/null;
+sleep 3
+cat Miickeyy.flf >> $PREFIX/share/figlet/Miickeyy.flf
+sleep 3
+rm Miickeyy.flf
+fi
+crazy-banner () 
+{
+clear;
+echo -e "\033[01;36m
+Miickeyy (2019)
+		
+	menu
++---------------------------*/
+.......Terminal-Linux......
++---------------------------*/
+solo usuarios de oh-my-zsh....
+\033[0m";
+ok=0
+while [ $ok = 0 ];
+do
+	echo ""
+tput setaf 6
+read -p "Por favor ingresa un nombre : " PROC
+tput sgr 0
+if [ ${#PROC} -gt 8 ]; then
+	echo -e "\e[1;31m[*] \033[36m Caracteres de entrada son demasiado largos ...\033[0m" | pv -qL 10;
+	echo ""
+	echo -e "\033[36m Por favor ingresa menos de \033[31m9 \033[36m caracteres para el nombre\033[0m" | pv -qL 10;
+	echo ""
+	sleep 4
+	clear
+echo -e "\033[01;36m
+Miickeyy (2019)
+
+	menu
++---------------------------*/
+.......Terminal-Linux......
++---------------------------*/
+solo usuarios de oh-my-zsh....
+\033[0m";
+	echo ""
+	echo -e "\e[1;36m \033[36m Por favor ingrese menos de 9 caracteres...\033[0m" | pv -qL 10;
+	echo ""
+else
+	ok=1
+fi
+done
+clear
+TNAME="$PROC";
+echo -e "\033[31m$(figlet -f Miickeyy.flf "$TNAME")\033[0m";
+rm -rf /data/data/com.termux/files/usr/etc/motd && rm $PREFIX/etc/bash.bashrc
+echo "";
+echo "PS1='\\e[1;31m┌─[ \e[1;36m$PROC\e[1;31m@\e[36mrootkali\e[1;31m]\e[0m-\e[1;31m[\e[36m$(date +'%d %a %b')\e[1;31m]\e[0m-\e[1;31m[\e[36m$(date +'%l:%M %p')\e[1;31m]
+> \e[1;31m├─[\e[1;36m \w \e[1;31m]
+> └─[\e[1;36m \# \e[1;31m]\e[0m '" >> $PREFIX/etc/bash.bashrc
+tput setaf 6
+read -p  "¿se pondra este banner esta bien? (y/n) " PROC32
+tput sgr 0
+if [ "$PROC32" = "y" ]; then
+	if [ -e $HOME/Crazy-banner.txt ]; then
+		rm $HOME/Crazy-banner.txt;
+fi
+
+	if [ -d $HOME/Crazy-banner ]; then
+	cd $HOME/crazy-banner
+	fi
+	
+	wget https://raw.githubusercontent.com/Miickeyy/crazy-banner/master/.repo/Crazy-banner.txt &> /dev/null ;
+
+	sleep 3
+	sed -i '/^TNAME=/d' $HOME/.zshrc
+	echo "TNAME='$PROC'" >> $HOME/.zshrc
+	cat cowsay -f eyes '$PROC' |lolcat >> Crazy-banner.txt
+	cat Crazy-banner.txt >> $HOME/.zshrc
+	cat /data/data/com.termux/files/home/crazy-banner/.bash/bash.bashrc >> $HOME/.zshrc
+		sleep 3
+	rm Crazy-banner.txt
+	rm $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+	if [ -e $PWD/.miickeyy.zsh-tema ]; then
+	sed -e "s/\Miickeyy/$PROC/g" .miickeyy.zsh-tema > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+else
+wget https://raw.githubusercontent.com/Miickeyy/crazy-banner/master/.repo/.miickeyy.zsh-tema &> /dev/null
+sed -e "s/\miickeyy/$PROC/g" .miickeyy.zsh-tema > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+fi
+source ~/.zshrc
+else
+	echo -e "\033[36m Espero que te guste mi script By Miickeyy..\033[0m"
+fi
+exit
+}
+
+clear;
+echo -e "\033[31m$(figlet -f Miickeyy "Crazy- Banner")\e[0m"
+echo -e "\e[1;31m
++----------------------------------*/
+Miickeyy : (\e[36m 15/10/2019\e[36m)
+
+1. Oh-my-zsh
+2. Zsh-syntax-highlight (\e[33mplugins\e[01;36m)
+3. Zsh-command-autosuggest (\e[33mplugins\e[01;36m)
+4. Terminal-Header
+5. PS1 personalizando prompt ( \e[33mBest one\e[1;36m )
++----------------------------------*/
+\033[0m";
+tput setaf 6;
+read -p  "¿seguro que Quieres configurar tu banner? (y/n) " PROC33
+
+tput sgr 0
+if [ "$PROC33" = "y" ]; then
+
+
+ozsh=0
+if [ -d $HOME/.oh-my-zsh ]; then
+	rm -rf $HOME/.oh-my-zsh/
+	rm $HOME/.zshrc ;clear
+elif [ -d $HOME/.zsh ]; then
+	rm -rf $HOME/.zsh && clear
+else
+	echo -e "\e[1;34m[*] \e[36m No tienes oh-my-zsh...\e[0m";
+fi
+while [ $ozsh = 0 ];
+do
+	echo -e "\e[1;36m[*] \e[32m Oh-my-zsh nueva configuración....\e[0m";
+	echo "";
+
+	( git clone https://github.com/Miickeyy1/termux-ohmyzsh.git "$HOME/termux-ohmyzsh" --depth 1; cp -R "$HOME/termux-ohmyzsh/.termux" "$HOME/.termux"; git clone https://github.com/Miickeyy1/oh-my-zsh.git "$HOME/.oh-my-zsh" --depth 1; mv "$HOME/.termux" "$HOME/.termux.bak.$(date +%Y.%m.%d-%H:%M:%S)"; cp "$HOME/.oh-my-zsh/templates/zshrc.zsh-template" "$HOME/.zshrc"; sed -i '/^ZSH_THEME/d' "$HOME/.zshrc"; sed -i '1iZSH_THEME="xiong-chiamiov-plus"' "$HOME/.zshrc"; echo "alias chcolor='$HOME/.termux/colors.sh'" >> "$HOME/.zshrc"; echo "alias chfont='$HOME/.termux/fonts.sh'" >> "$HOME/.zshrc"; rm -rf $HOME/termux-ohmyzsh; termux-wake-unlock; ) &> /dev/null & spin;
+	chsh -s zsh;
+if [ -d $HOME/.oh-my-zsh ];
+then
+	ozsh=1
+
+elif [ -e $HOME/.termux/colors.sh ];
+then
+	ozsh=1
+else
+	echo -e "\e[1;31m[*] \e[36m descarga el error n ° 2 .. lo intentaré nuevamente..\e[0m";
+
+fi
+done
+
+echo -e "\e[1;31m[*] \e[36m Configuración de complementos Zsh-autosuggestion..\e[0m";
+
+zshau=0
+mkdir -p $HOME/.plugins/
+cd $HOME/.plugins/
+
+while [ $zshau = 0 ];
+do
+	( git clone https://github.com/Miickeyy1/zsh-autosuggestions.git; echo "source ~/.plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> $HOME/.zshrc; ) &> /dev/null & spin
+	if [ -d $HOME/.plugins/zsh-autosuggestions ];
+then
+	zshau=1
+else
+
+echo -e "\e[1;31m[*] \e[36m descarga fallida .. lo intentaré nuevamente..\e[0m";
+
+fi
+done
+zshsyx=0
+
+cd $HOME/.plugins/
+
+while [ $zshsyx = 0 ];
+do
+echo -e "\e[1;34m[*] \e[36m Configurando Zsh-syntax-highlighter ....\e[0m";
+	( rm -rf /data/data/com.termux/files/usr/etc/motd ; git clone https://github.com/Miickeyy1/zsh-syntax-highlighting.git; echo "source ~/.plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> $HOME/.zshrc; ) &> /dev/null & spin
+
+if [ -d $HOME/.plugins/zsh-syntax-highlighting ];
+then
+	zshsyx=1
+else
+	echo -e "\e[1;34m[*] \e[36m descarga fallida .. lo intentaré nuevamente..\e[0m";
+
+fi
+done
+
+
+
+
+	crazy-banner
+	
+	
+else
+	echo -e "\e[1;34m[*] \033[32mHope you like my work..\033[0m"
+	exit
+fi
+exit 0
+
