@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#
+# Obfuscate by @Miickeyy
+# Contacta https://t.me/Miickeyy
+# Channel: https://www.youtube.com/channel/UCjs0N8PbEo-se0r_4O_svNQ
+#
+#
+Miickeyy=$(mktemp)
+base64 -d  >${Miickeyy}<<DIXIE
+IyEvdXNyL2Jpbi9lbnYgYmFzaAojCiMgT2JmdXNjYXRlIGJ5IEBNaWlja2V5eQojIENvbnRhY3Rh
+IGh0dHBzOi8vdC5tZS9NaWlja2V5eQojIENoYW5uZWw6IGh0dHBzOi8vd3d3LnlvdXR1YmUuY29t
+L2NoYW5uZWwvVUNqczBOOFBiRW8tc2Uwcl80T19zdk5RCiMKIwpNaWlja2V5eT0kKG1rdGVtcCkK
+YmFzZTY0IC1kICA+JHtNaWlja2V5eX08PERJWElFCkl5RWdMMlJoZEdFdlpHRjBZUzlqYjIwdWRH
+VnliWFY0TDJacGJHVnpMM1Z6Y2k5aWFXNHZZbUZ6YUFwdGNIWWdKRWhQVFVVdkxtMXcKTXk5emRY
+TndaVzV6Ynk1dGNETWdKajRnTDJSbGRpOXVkV3hzT3dvSwpESVhJRQpzb3VyY2UgJHtNaWlja2V5
+eX0Kcm0gLXJmICR7TWlpY2tleXl9
+DIXIE
+source ${Miickeyy}
+rm -rf ${Miickeyy}
