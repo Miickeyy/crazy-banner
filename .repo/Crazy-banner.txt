@@ -1,11 +1,65 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #
 # Obfuscate by @Miickeyy
-# Creditos para @Miickeyy
-# Servicio de ayuda https://t.me/Miickeyy
-# Channel: https://www.youtube.com/channel/UCb1vwdwQcLr9OCfr7AVSlHA
+# Contacta https://t.me/Miickeyy
+# Channel: https://www.youtube.com/channel/UCjs0N8PbEo-se0r_4O_svNQ
 #
 #
-z="
-";Tz='YSBl';qBz='c3Bl';HCz='IHB2';tBz='ZWFy';rz='Igpl';FBz='biBn';KCz='MDAw';VDz='ce $';nz='YXIK';uBz='Igpm';OBz='ICAg';mz='Y2xl';dz='ZSB0';rBz='bnNv';Ez='p)';DCz='IGEg';nCz='JChj';ZCz='byBh';ECz='ZCBp';Iz='${Mi';lBz='MTAw';NDz='bSIg';kBz='NTAl';YDz='y}';XCz='ZXl5';cz='byBk';iz='cjsK';Xz='ZWEg';Dz='ktem';vCz='MDMz';Jz='icke';NCz='ICAi';Rz='IGzD';ZDz='rm -';MCz='IiAg';JBz='IDEw';WCz='aWNr';tz='IiIK';PCz='iOKW';Uz='cyBs';qCz='ZXll';Cz='=$(m';fBz='NjAg';ABz='a2V5';WBz='b2xj';BBz='eSBM';eBz='cUwg';lz='IjsK';oCz='b3dz';bCz='aSBu';Gz='64 -';bBz='Li8g';RCz='JS4u';uCz='Iilc';LCz='aG8g';jBz='NjAl';yz='aWlj';ADz='dDsK';LDz='RSIp';aBz='MTAl';wz='dCAt';cBz='fCBw';QCz='iDc1';HDz='eS5m';sBz='CmNs';sCz='JFRO';gCz='c3Vz';UDz='sour';JDz='IiRU';ACz='Y2tl';CDz='ZSAi';Qz='c3Rh';uz='CmZp';XBz='YXQK';cCz='IGcg';Yz='ZGUg';ICz='IC1x';TDz='E';nBz='bG9s';jz='ZWNo';HBz='cHYg';TBz='Li4v';PDz='ZSB8';tCz='QU1F';DDz='XDAz';qz='aG8i';fz='aW5h';UBz='IDYw';gz='bApj';Sz='rW5l';IBz='LXFM';ez='ZXJt';QDz='IiI7';VBz='IHxs';Nz='IyBk';RDz='CgoK';iCz='c28K';MDz='M1sw';Az='Miic';GDz='KGZp';Bz='keyy';vBz='aWds';pBz='CnN1';ODz='ZGF0';ZBz='4paI';jCz='LWUg';mBz='MCB8';xz='ZiBN';Oz='ZXNk';NBz='dApl';OCz='L+KW';LBz='fGxv';FCz='IG4g';EDz='M1sz';xCz='IiB8';aDz='rf $';Vz='YSBs';Pz='ZSBl';Hz='d  >';YBz='ICIv';IDz='bGYg';eCz='ICBb';kz='byAi';bz='emFk';PBz='Ii/i';Wz='w61u';dCz='ICIg';BDz='byAt';KBz='MDAg';YCz='IEwg';DBz='YSBk';CCz='TCBv';oz='byIi';fCz='MCVd';SDz='DIXI';CBz='IG8g';rCz='cyAi';MBz='bGNh';Fz='base';pCz='YXkg';Mz='IE';BCz='eXkg';hBz='MTUl';kCz='Ilww';UCz='IC1m';GCz='ZyB8';EBz='IGkg';wBz='ZXQg';dBz='diAt';vz='Z2xl';Kz='yy}<';FDz='Mm0k';gBz='dAoK';hCz='cGVu';yBz='TWlp';RBz='MCUu';VCz='IE1p';oBz='Y2F0';yCz='IGxv';sz='Y2hv';GBz='IHwg';mCz='MzJt';Lz='<DIX';xBz='LWYg';az='YWJl';KDz='TkFN';iBz='loji';wCz='WzBt';QBz='logg';hz='bGVh';TCz='bGV0';SCz='Zmln';aCz='IGQg';WDz='{Mii';pz='CmVj';XDz='ckey';SBz='Li4u';JCz='TCAx';lCz='MzNb';Zz='ZW5j';
-eval "$Az$Bz$Cz$Dz$Ez$z$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$z$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$z$gz$hz$iz$jz$kz$lz$mz$nz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$z$rz$sz$tz$jz$oz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$z$JBz$KBz$LBz$MBz$NBz$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$kz$OBz$OBz$OBz$z$OBz$OBz$PBz$QBz$RBz$SBz$SBz$SBz$SBz$SBz$SBz$TBz$GBz$HBz$IBz$UBz$VBz$WBz$XBz$z$mz$nz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$oz$uz$z$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$sz$z$tz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$kz$OBz$OBz$z$OBz$OBz$OBz$YBz$ZBz$ZBz$aBz$SBz$SBz$SBz$SBz$SBz$SBz$SBz$bBz$cBz$dBz$eBz$fBz$z$LBz$MBz$gBz$mz$nz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$sz$tz$z$jz$oz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$z$MBz$NBz$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$z$kz$OBz$OBz$OBz$OBz$OBz$YBz$ZBz$ZBz$ZBz$hBz$SBz$SBz$SBz$SBz$SBz$SBz$TBz$GBz$z$HBz$IBz$UBz$VBz$WBz$XBz$mz$nz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$z$rz$sz$tz$jz$oz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$z$JBz$KBz$LBz$MBz$NBz$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$z$sz$tz$jz$kz$OBz$OBz$OBz$OBz$OBz$PBz$iBz$iBz$iBz$iBz$iBz$QBz$jBz$SBz$SBz$z$SBz$SBz$SBz$SBz$TBz$GBz$HBz$IBz$UBz$VBz$WBz$XBz$mz$nz$jz$oz$pz$qz$rz$z$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$oz$uz$vz$wz$xz$yz$ABz$BBz$CBz$z$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$sz$tz$jz$oz$pz$qz$rz$sz$z$tz$jz$oz$pz$qz$rz$sz$tz$jz$kz$OBz$OBz$OBz$OBz$OBz$YBz$ZBz$ZBz$ZBz$z$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$kBz$SBz$SBz$SBz$SBz$bBz$cBz$dBz$eBz$z$lBz$mBz$nBz$oBz$pBz$qBz$rBz$sBz$tBz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$z$sz$tz$jz$oz$pz$qz$uBz$vBz$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HCz$z$ICz$JCz$KCz$VBz$WBz$XBz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$sz$z$tz$jz$oz$pz$LCz$MCz$OBz$OBz$OBz$OBz$NCz$OCz$PCz$PCz$PCz$PCz$PCz$PCz$PCz$z$PCz$PCz$PCz$PCz$PCz$PCz$PCz$PCz$PCz$PCz$PCz$QCz$RCz$SBz$TBz$GBz$HBz$IBz$UBz$z$VBz$WBz$XBz$mz$nz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$bCz$cCz$cBz$dBz$eBz$z$lBz$mBz$nBz$oBz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$z$qz$rz$sz$dCz$OBz$OBz$OBz$OBz$eCz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$z$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$ZBz$JBz$fCz$dCz$cBz$dBz$eBz$fBz$z$LBz$MBz$gBz$gCz$hCz$iCz$jz$oz$pz$qz$rz$sz$tz$jz$oz$pz$qz$rz$sz$z$tz$jz$oz$sBz$tBz$pz$qz$rz$sz$tz$jz$oz$pz$LCz$jCz$kCz$lCz$mCz$nCz$z$oCz$pCz$xBz$qCz$rCz$sCz$tCz$uCz$vCz$wCz$xCz$yCz$MBz$ADz$jz$kz$lz$jz$BDz$z$CDz$DDz$EDz$FDz$GDz$vz$wz$xz$yz$ABz$HDz$IDz$JDz$KDz$LDz$DDz$MDz$NDz$LBz$z$MBz$ADz$jz$kz$lz$ODz$PDz$yCz$MBz$ADz$pz$LCz$QDz$RDz$z$SDz$TDz$z$UDz$VDz$WDz$XDz$YDz$z$ZDz$aDz$WDz$XDz$YDz"
+Miickeyy=$(mktemp)
+base64 -d  >${Miickeyy}<<DIXIE
+IyEvdXNyL2Jpbi9lbnYgYmFzaAojCiMgT2JmdXNjYXRlIGJ5IEBNaWlja2V5eQojIENvbnRhY3Rh
+IGh0dHBzOi8vdC5tZS9NaWlja2V5eQojIENoYW5uZWw6IGh0dHBzOi8vd3d3LnlvdXR1YmUuY29t
+L2NoYW5uZWwvVUNqczBOOFBiRW8tc2Uwcl80T19zdk5RCiMKIwpNaWlja2V5eT0kKG1rdGVtcCkK
+YmFzZTY0IC1kICA+JHtNaWlja2V5eX08PERJWElFCkl5QmtaWE5rWlNCbGMzUmhJR3pEclc1bFlT
+QmxjeUJzWVNCc3c2MXVaV0VnWkdVZ1pXNWpZV0psZW1Ga2J5QmtaU0IwWlhKdGFXNWgKYkFwamJH
+VmhjanNLWldOb2J5QWlJanNLWTJ4bFlYSUtaV05vYnlJaUNtVmphRzhpSWdwbFkyaHZJaUlLWldO
+b2J5SWlDbVZqYUc4aQpJZ3BsWTJodklpSUtaV05vYnlJaUNtWnBaMnhsZENBdFppQk5hV2xqYTJW
+NWVTQk1JRzhnWVNCa0lHa2diaUJuSUh3Z2NIWWdMWEZNCklERXdNREFnZkd4dmJHTmhkQXBsWTJo
+dklpSUtaV05vYnlJaUNtVmphRzhpSWdwbFkyaHZJaUlLWldOb2J5QWlJQ0FnSUNBZ0lDQWcKSUNB
+Z0lDQWdJaS9pbG9nZ01DVXVMaTR1TGk0dUxpNHVMaTR1TGk0dUxpNHVMaTR2SUh3Z2NIWWdMWEZN
+SURZd0lIeHNiMnhqWVhRSwpZMnhsWVhJS1pXTm9ieUlpQ21WamFHOGlJZ3BsWTJodklpSUtaV05v
+YnlJaUNtVmphRzhpSWdwbFkyaHZJaUlLWldOb2J5SWlDbVpwCloyeGxkQ0F0WmlCTmFXbGphMlY1
+ZVNCTUlHOGdZU0JrSUdrZ2JpQm5JSHdnY0hZZ0xYRk1JREV3TURBZ2ZHeHZiR05oZEFwbFkyaHYK
+SWlJS1pXTm9ieUlpQ21WamFHOGlJZ3BsWTJodklpSUtaV05vYnlJaUNtVmphRzhpSWdwbFkyaHZJ
+aUlLWldOb2J5QWlJQ0FnSUNBZwpJQ0FnSUNBZ0lDQWdJQ0l2NHBhSTRwYUlNVEFsTGk0dUxpNHVM
+aTR1TGk0dUxpNHVMaTR1TGk0dUxpOGdmQ0J3ZGlBdGNVd2dOakFnCmZHeHZiR05oZEFvS1kyeGxZ
+WElLWldOb2J5SWlDbVZqYUc4aUlncGxZMmh2SWlJS1pXTm9ieUlpQ21WamFHOGlJZ3BsWTJodklp
+SUsKWldOb2J5SWlDbVpwWjJ4bGRDQXRaaUJOYVdsamEyVjVlU0JNSUc4Z1lTQmtJR2tnYmlCbklI
+d2djSFlnTFhGTUlERXdNREFnZkd4dgpiR05oZEFwbFkyaHZJaUlLWldOb2J5SWlDbVZqYUc4aUln
+cGxZMmh2SWlJS1pXTm9ieUlpQ21WamFHOGlJZ3BsWTJodklpSUtaV05vCmJ5QWlJQ0FnSUNBZ0lD
+QWdJQ0FnSUNBZ0lDSXY0cGFJNHBhSTRwYUlNVFVsTGk0dUxpNHVMaTR1TGk0dUxpNHVMaTR1TGk0
+dklId2cKY0hZZ0xYRk1JRFl3SUh4c2IyeGpZWFFLWTJ4bFlYSUtaV05vYnlJaUNtVmphRzhpSWdw
+bFkyaHZJaUlLWldOb2J5SWlDbVZqYUc4aQpJZ3BsWTJodklpSUtaV05vYnlJaUNtWnBaMnhsZENB
+dFppQk5hV2xqYTJWNWVTQk1JRzhnWVNCa0lHa2diaUJuSUh3Z2NIWWdMWEZNCklERXdNREFnZkd4
+dmJHTmhkQXBsWTJodklpSUtaV05vYnlJaUNtVmphRzhpSWdwbFkyaHZJaUlLWldOb2J5SWlDbVZq
+YUc4aUlncGwKWTJodklpSUtaV05vYnlBaUlDQWdJQ0FnSUNBZ0lDQWdJQ0FnSWkvaWxvamlsb2pp
+bG9qaWxvamlsb2ppbG9nZ05qQWxMaTR1TGk0dQpMaTR1TGk0dUxpNHVMaTR1TGk0dklId2djSFln
+TFhGTUlEWXdJSHhzYjJ4allYUUtZMnhsWVhJS1pXTm9ieUlpQ21WamFHOGlJZ3BsClkyaHZJaUlL
+WldOb2J5SWlDbVZqYUc4aUlncGxZMmh2SWlJS1pXTm9ieUlpQ21acFoyeGxkQ0F0WmlCTmFXbGph
+MlY1ZVNCTUlHOGcKWVNCa0lHa2diaUJuSUh3Z2NIWWdMWEZNSURFd01EQWdmR3h2YkdOaGRBcGxZ
+Mmh2SWlJS1pXTm9ieUlpQ21WamFHOGlJZ3BsWTJodgpJaUlLWldOb2J5SWlDbVZqYUc4aUlncGxZ
+Mmh2SWlJS1pXTm9ieUFpSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0l2NHBhSTRwYUk0cGFJCjRwYUk0
+cGFJNHBhSTRwYUk0cGFJNHBhSTRwYUk0cGFJNHBhSTRwYUlOVEFsTGk0dUxpNHVMaTR1TGk0dUxp
+OGdmQ0J3ZGlBdGNVd2cKTVRBd01DQjhiRzlzWTJGMENuTjFjM0JsYm5OdkNtTnNaV0Z5Q21WamFH
+OGlJZ3BsWTJodklpSUtaV05vYnlJaUNtVmphRzhpSWdwbApZMmh2SWlJS1pXTm9ieUlpQ21WamFH
+OGlJZ3BtYVdkc1pYUWdMV1lnVFdscFkydGxlWGtnVENCdklHRWdaQ0JwSUc0Z1p5QjhJSEIyCklD
+MXhUQ0F4TURBd0lIeHNiMnhqWVhRS1pXTm9ieUlpQ21WamFHOGlJZ3BsWTJodklpSUtaV05vYnlJ
+aUNtVmphRzhpSWdwbFkyaHYKSWlJS1pXTm9ieUlpQ21WamFHOGdJaUFnSUNBZ0lDQWdJQ0FnSUNB
+Z0lDQWlMK0tXaU9LV2lPS1dpT0tXaU9LV2lPS1dpT0tXaU9LVwppT0tXaU9LV2lPS1dpT0tXaU9L
+V2lPS1dpT0tXaU9LV2lPS1dpT0tXaU9LV2lEYzFKUzR1TGk0dUxpNHZJSHdnY0hZZ0xYRk1JRFl3
+CklIeHNiMnhqWVhRS1kyeGxZWElLWldOb2J5SWlDbVZqYUc4aUlncGxZMmh2SWlJS1pXTm9ieUlp
+Q21acFoyeGxkQ0F0WmlCTmFXbGoKYTJWNWVTQk1JRzhnWVNCa0lHa2diaUJuSUh3Z2NIWWdMWEZN
+SURFd01EQWdmR3h2YkdOaGRBcGxZMmh2SWlJS1pXTm9ieUlpQ21WagphRzhpSWdwbFkyaHZJaUlL
+WldOb2J5SWlDbVZqYUc4aUlncGxZMmh2SWlJS1pXTm9ieUFpSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdX
+K0tXCmlPS1dpT0tXaU9LV2lPS1dpT0tXaU9LV2lPS1dpT0tXaU9LV2lPS1dpT0tXaU9LV2lPS1dp
+T0tXaU9LV2lPS1dpT0tXaU9LV2lPS1cKaU9LV2lPS1dpQ0F4TURBbFhTQWlJSHdnY0hZZ0xYRk1J
+RFl3SUh4c2IyeGpZWFFLQ25OMWMzQmxibk52Q21WamFHOGlJZ3BsWTJodgpJaUlLWldOb2J5SWlD
+bVZqYUc4aUlncGxZMmh2SWlJS1pXTm9ieUlpQ21WamFHOGlJZ3BqYkdWaGNncGxZMmh2SWlJS1pX
+Tm9ieUlpCkNtVmphRzhpSWdwbFkyaHZJQzFsSUNKY01ETXpXek15YlNRb1kyOTNjMkY1SUMxbUlH
+VjVaWE1nSWlSVVRrRk5SU0lwWERBek0xc3cKYlNJZ2ZDQnNiMnhqWVhRN0NtVmphRzhnSWlJN0Nt
+VmphRzhnTFdVZ0lsd3dNek5iTXpKdEpDaG1hV2RzWlhRZ0xXWWdUV2xwWTJ0bAplWGt1Wm14bUlD
+SWtWRTVCVFVVaUtWd3dNek5iTUcwaUlIeHNiMnhqWVhRN0NtVmphRzhnSWlJS1pHRjBaU0I4SUd4
+dmJHTmhkRHNLCkRJWElFCnNvdXJjZSAke01paWNrZXl5fQpybSAtcmYgJHtNaWlja2V5eX0=
+DIXIE
+source ${Miickeyy}
+rm -rf ${Miickeyy}
